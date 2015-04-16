@@ -1,0 +1,26 @@
+<div data-ng-show="showError" ng-class="{fade:doFade}" class="alert alert-danger alertBox"><strong>Error:</strong> {{errorMessage}}</div>
+<div class="container">
+	<div class="row pdtp25">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<form class="search-form" ng-submit="fn_profileSearch()">
+				<label for="name">Where is</label>
+				<div class="input-group person-search">
+			      	<input type="text" ng-model="searchContent" placeholder="Search for..." typeahead="user as user.NAME for user in usersInformation | filter:$viewValue | limitTo:8" class="form-control">
+			        <span class="input-group-btn">
+				        <button class="btn btn-default" type="submit">Go!</button>
+				    </span>
+			    </div><!-- /input-group -->
+			</form>
+			<form class="apply-form">
+					<label>Apply for</label>
+					<ul class="nav nav-pills nav-stacked">
+					  <li class="mrgntp0"><a href="#">Planned Leave <span class="badge">{{searchContent.PLANNED_LEAVE}}</span></a></li>
+					  <li><a href="#">Casual Leave <span class="badge">{{searchContent.CASUAL_LEAVE}}</span></a></li>
+					  <li><a href="#">Sick Leave <span class="badge">{{searchContent.SICK_LEAVE}}</span></a></li>
+					  <li><a href="#">Work From Home <span class="badge">{{searchContent.WFH}}</span></a></li>
+					</ul>
+			</form>
+		</div>
+	</div>
+</div>
+

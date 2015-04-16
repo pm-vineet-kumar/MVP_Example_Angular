@@ -1,0 +1,28 @@
+{
+  "pubmaticUITeam" : [
+  {
+    "username" : "vineet.kumar@pubmatic.com",
+    "GENDER" : "MALE",
+    "ID" : "P001",
+    "NAME" : "Vineet Kumar",
+    "PHONENUMBER" : "7276282210",
+    "PHOTO" : "images/profilePic.png",
+    "PLANNED_LEAVE": "2",
+    "CASUAL_LEAVE": "0",
+    "SICK_LEAVE": "1",
+    "WFH": "2"
+  },
+  {
+    "username" : "debjit.biswas@pubmatic.com",
+    "GENDER" : "MALE",
+    "ID" : "P002",
+    "NAME" : "Debjit biswas",
+    "PHONENUMBER" : "98988998989",
+    "PHOTO" : "images/profilePic.png",
+    "PLANNED_LEAVE": "12",
+    "CASUAL_LEAVE": "10",
+    "SICK_LEAVE": "12",
+    "WFH": "22"
+  }
+  ]
+}
