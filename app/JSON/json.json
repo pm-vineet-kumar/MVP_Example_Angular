@@ -12,17 +12,41 @@
     "SICK_LEAVE": "1",
     "WFH": "2"
   },
+    {
+      "username" : "vaibhav.kakde@pubmatic.com",
+      "GENDER" : "MALE",
+      "ID" : "P003",
+      "NAME" : "vaibhav kakde",
+      "PHONENUMBER" : "98988998989",
+      "PHOTO" : "images/profilePic.png",
+      "PLANNED_LEAVE": "1",
+      "CASUAL_LEAVE": "10",
+      "SICK_LEAVE": "12",
+      "WFH": "102"
+    },
   {
-    "username" : "debjit.biswas@pubmatic.com",
+    "username" : "surabh.maind@pubmatic.com",
     "GENDER" : "MALE",
     "ID" : "P002",
-    "NAME" : "Debjit biswas",
+    "NAME" : "surabh maind",
     "PHONENUMBER" : "98988998989",
     "PHOTO" : "images/profilePic.png",
     "PLANNED_LEAVE": "12",
     "CASUAL_LEAVE": "10",
     "SICK_LEAVE": "12",
-    "WFH": "22"
-  }
+    "WFH": "2"
+  },
+    {
+      "username" : "debjit.biswas@pubmatic.com",
+      "GENDER" : "MALE",
+      "ID" : "P002",
+      "NAME" : "Debjit biswas",
+      "PHONENUMBER" : "98988998989",
+      "PHOTO" : "images/profilePic.png",
+      "PLANNED_LEAVE": "12",
+      "CASUAL_LEAVE": "10",
+      "SICK_LEAVE": "12",
+      "WFH": "22"
+    }
   ]
 }
